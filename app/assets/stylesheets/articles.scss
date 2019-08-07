@@ -1,0 +1,34 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+@media (min-width: 768px)
+.navbar {
+    border-radius: 4px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.navbar:before, .navbar:after {
+    content: " ";
+    display: table;
+}
+
+*:before, *:after {
+    box-sizing: border-box;
+}
+
+.navbar:after {
+    clear: both;
+    content: " ";
+    display: table;
+}
